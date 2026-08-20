@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zahra Ali Makeup Studio & Salon — Home</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+
+    <!-- Font Awesome 6 (free) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- ============================================================
+    NAVBAR
+    ============================================================ -->
+    <header class="navbar" id="navbar">
+        <div class="container navbar-container">
+            <a href="index.html" class="navbar-brand">
+                <span class="brand-main">Zahra Ali</span>
+                <span class="brand-sub">Makeup Studio &amp; Salon</span>
+            </a>
+
+            <button class="navbar-toggle" id="navbarToggle" aria-label="Toggle navigation">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+
+            <nav class="navbar-nav" id="navbarNav">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li class="dropdown-trigger">
+                        <a href="#services">Services <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="party-makeup.html">Party Makeup</a></li>
+                            <li><a href="bridal-makeup.html">Bridal Makeup</a></li>
+                            <li><a href="nail-bar.html">Nail Bar</a></li>
+                            <li><a href="massage-oiling.html">Massage &amp; Oiling</a></li>
+                            <li><a href="hands-feet.html">Hands &amp; Feet Care</a></li>
+                            <li><a href="waxing.html">Waxing</a></li>
+                            <li><a href="skin-rituals.html">Skin Rituals</a></li>
+                            <li><a href="haircuts-styling.html">Haircuts &amp; Styling</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#booking" class="btn-nav-book">Book Appointment</a></li>
+                    <li><a href="https://wa.me/923094555755" target="_blank" class="btn-nav-wa"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ============================================================
+    HERO SECTION
+    ============================================================ -->
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <p class="hero-subtitle">Welcome to</p>
+                <h1 class="hero-title">Zahra Ali<br />Makeup Studio &amp; Salon</h1>
+                <p class="hero-tagline">Beauty, Refined. Confidence, Revealed.</p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn btn-primary">Explore Services</a>
+                    <a href="#booking" class="btn btn-outline">Book Appointment</a>
+                    <a href="https://wa.me/923094555755" target="_blank" class="btn btn-wa"><i class="fab fa-whatsapp"></i> WhatsApp Us</a>
+                </div>
+            </div>
+        </div>
+        <!-- decorative scroll indicator -->
+        <div class="hero-scroll">
+            <span>Scroll</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    SERVICES SECTION (HOME)
+    ============================================================ -->
+    <section class="services-home" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Expertise</span>
+                <h2 class="section-title">Luxury Services</h2>
+                <p class="section-desc">Discover our complete range of premium beauty services crafted for the modern woman.</p>
+            </div>
+
+            <div class="services-grid">
+
+                <!-- 1. Party Makeup -->
+                <div class="service-card">
+                    <div class="service-card-image">
+                        <img src="party-makeup.jpg" alt="Party Makeup" loading="lazy" />
+                        <div class="service-card-overlay">
+                            <span class="service-number"></span>
+                        </div>
+                    </div>
+                    <div class="service-card-body">
+                        <h3>Party Makeup</h3>
+                        <p>Stunning party looks with heavy or soft glam options.</p>
+                        <a href="party-makeup.html" class="btn btn-gold">View Services</a>
+                    </div>
+                </div>
+
+                <!-- 2. Bridal Makeup -->
+                <div class="service-card">
+                    <div class="service-card-image">
+                        <img src="bridal-makeup.jpg" alt="Bridal Makeup" loading="lazy" />
+                        <div class="service-card-overlay">
+                            <span class="service-number"></span>
+                        </div>
+                    </div>
+                    <div class="service-card-body">
+                        <h3>Bridal Makeup</h3>
+                        <p>Signature bridal packages for your special day.</p>
+                        <a href="bridal-makeup.html" class="btn btn-gold">View Services</a>
+                    </div>
+                </div>
+
+                <!-- 3. Nail Bar -->
+                <div class="service-card">
+                    <div class="service-card-image">
+                        <img src="nail-bar.jpg" alt="Nail Bar" loading="lazy" />
+                        <div class="service-card-overlay">
+                            <span class="service-number"></span>
+                        </div>
+                    </div>
+                    <div class="service-card-body">
+                        <h3>Nail Bar</h3>
+                        <p>From acrylics to gel polish and intricate nail art.</p>
+                        <a href="nail-bar.html" class="btn btn-gold">View Services</a>
+                    </div>
+                </div>
+
+                <!-- 4. Massage & Oiling -->
+                <div class="service-card">
+                    <div class="service-card-image">
+                        <img src="massage an oiling.webp" alt="Massage & Oiling" loading="lazy" />
+                        <div class="service-card-overlay">
+                            <span class="service-number"></span>
+                        </div>
+                    </div>
+                    <div class="service-card-body">
+                        <h3>Massage &amp; Oiling</h3>
+                        <p>Rejuvenating massages and nourishing hair oiling.</p>
+                        <a href="massage-oiling.html" class="btn btn-gold">View Services</a>
+                    </div>
+                </div>
+
+                <!-- 5. Hands & Feet Care -->
+                <div class="service-card">
+                    <div class="service-card-image">
+                        <img src="hands and feet care.jpg" alt="Hands & Feet Care" loading="lazy" />
+                        <div class="service-card-overlay">
+                            <span class="service-number"></span>
+                        </div>
+                    </div>
+                    <div class="service-card-body">
+                        <h3>Hands &amp; Feet Care</h3>
+                        <p>Luxury manicures and pedicures for soft, polished hands and feet.</p>
+                        <a href="hands-feet.html" class="btn btn-gold">View Services</a>
+                    </div>
+                </div>
+
+                <!-- 6. Waxing -->
+                <div class="service-card">
+                    <div class="service-card-image">
+                        <img src="waxing.jpg" alt="Waxing" loading="lazy" />
+                        <div class="service-card-overlay">
+                            <span class="service-number"></span>
+                        </div>
+                    </div>
+                    <div class="service-card-body">
+                        <h3>Waxing</h3>
+                        <p>Gentle and effective waxing for face and body.</p>
+                        <a href="waxing.html" class="btn btn-gold">View Services</a>
+                    </div>
+                </div>
+
+                <!-- 7. Skin Rituals -->
+                <div class="service-card">
+                    <div class="service-card-image">
+                        <img src="skin-rituals.jpg" alt="Skin Rituals" loading="lazy" />
+                        <div class="service-card-overlay">
+                            <span class="service-number"></span>
+                        </div>
+                    </div>
+                    <div class="service-card-body">
+                        <h3>Skin Rituals</h3>
+                        <p>Advanced facials and skin therapies for a radiant glow.</p>
+                        <a href="skin-rituals.html" class="btn btn-gold">View Services</a>
+                    </div>
+                </div>
+
+                <!-- 8. Haircuts & Styling -->
+                <div class="service-card">
+                    <div class="service-card-image">
+                        <img src="hair cuts and styling.jpg" alt="Haircuts & Styling" loading="lazy" />
+                        <div class="service-card-overlay">
+                            <span class="service-number"></span>
+                        </div>
+                    </div>
+                    <div class="service-card-body">
+                        <h3>Haircuts &amp; Styling</h3>
+                        <p>Expert cuts, blow-dries, and stunning hairstyles.</p>
+                        <a href="haircuts-styling.html" class="btn btn-gold">View Services</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    ABOUT SECTION
+    ============================================================ -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+    <video autoplay muted loop playsinline controls>
+        <source src="ABOUT.mp4" type="video/mp4" />
+        <img src="https://images.unsplash.com/photo-1560066984-6a3a7c3e8e6c?w=600&h=700&fit=crop&crop=center" alt="About Zahra Ali Makeup Studio" />
+    </video>
+</div>
+                <div class="about-content">
+                    <span class="section-tag">About Us</span>
+                    <h2 class="section-title">Where Art Meets Beauty</h2>
+                    <p>
+                        Zahra Ali Makeup Studio &amp; Salon is a premier luxury beauty destination in Lahore,
+                        dedicated to crafting unforgettable experiences for every client. With a passion for
+                        elegance and a commitment to excellence, we blend international techniques with
+                        Pakistani charm.
+                    </p>
+                    <p>
+                        From bridal glam to everyday sophistication, our team of skilled artists uses only
+                        the finest products to enhance your natural beauty. Step into our studio and let us
+                        reveal the most radiant version of you.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">8+</span>
+                            <span class="stat-label">Expert Services</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Years of Excellence</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">1k+</span>
+                            <span class="stat-label">Happy Clients</span>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    GALLERY SECTION (HOME)
+    ============================================================ -->
+    <section class="gallery-home" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Work</span>
+                <h2 class="section-title">Gallery</h2>
+                <p class="section-desc">A glimpse into the artistry and elegance we create every day.</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="bride.webp" alt="Gallery 1" loading="lazy" />
+                </div>
+                <div class="gallery-item">
+                    <img src="dulhan.jpg" alt="Gallery 2" loading="lazy" />
+                </div>
+                <div class="gallery-item">
+                    <img src="nails.webp" alt="Gallery 3" loading="lazy" />
+                </div>
+                <div class="gallery-item">
+                    <img src="nails.jpg" alt="Gallery 4" loading="lazy" />
+                </div>
+                <div class="gallery-item">
+                    <img src="hairy.jpg" alt="Gallery 5" loading="lazy" />
+                </div>
+                <div class="gallery-item">
+                    <img src="valeema.jpg" alt="Gallery 6" loading="lazy" />
+                </div>
+            </div>
+        </div>
+        <!-- Lightbox overlay -->
+        <div class="lightbox" id="lightbox">
+            <button class="lightbox-close" id="lightboxClose">&times;</button>
+            <button class="lightbox-prev" id="lightboxPrev">&#10094;</button>
+            <button class="lightbox-next" id="lightboxNext">&#10095;</button>
+            <img src="" alt="Lightbox" id="lightboxImage" />
+            <span class="lightbox-counter" id="lightboxCounter"></span>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    REVIEWS SECTION
+    ============================================================ -->
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Testimonials</span>
+                <h2 class="section-title">What Our Clients Say</h2>
+            </div>
+            <div class="reviews-slider" id="reviewsSlider">
+                <div class="reviews-track" id="reviewsTrack">
+
+                    <div class="review-card">
+                        <div class="review-stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="review-text">
+                            "Zahra Ali made me look absolutely stunning on my wedding day. The bridal makeup was flawless and lasted all night. I couldn't have asked for a better artist!"
+                        </p>
+                        <div class="review-author">
+                            <span class="review-name">Ayesha Khan</span>
+                            <span class="review-role">Bride</span>
+                        </div>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="review-text">
+                            "I've been coming to Zahra Ali for over two years now. Their nail art is incredible and the staff is so warm and professional. Highly recommend!"
+                        </p>
+                        <div class="review-author">
+                            <span class="review-name">Sana Tariq</span>
+                            <span class="review-role">Regular Client</span>
+                        </div>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="review-text">
+                            "The Korean Glow Facial transformed my skin! The team is so knowledgeable and the atmosphere is pure luxury. 10/10 experience."
+                        </p>
+                        <div class="review-author">
+                            <span class="review-name">Fatima Ahmed</span>
+                            <span class="review-role">Skincare Enthusiast</span>
+                        </div>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="review-text">
+                            "The massage therapy at Zahra Ali is world-class. I left feeling completely rejuvenated and stress-free. A must-visit in Lahore!"
+                        </p>
+                        <div class="review-author">
+                            <span class="review-name">Hira Malik</span>
+                            <span class="review-role">Massage Client</span>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- slider controls -->
+                <button class="slider-btn slider-prev" id="sliderPrev"><i class="fas fa-chevron-left"></i></button>
+                <button class="slider-btn slider-next" id="sliderNext"><i class="fas fa-chevron-right"></i></button>
+            </div>
+            <div class="slider-dots" id="sliderDots"></div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    CONTACT SECTION
+    ============================================================ -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Visit Us</span>
+                <h2 class="section-title">Get in Touch</h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-detail">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>Shop No. 6A &amp; 7A, First Floor, Commercial Market, Sector S, Airport Rd, Block A, Askari X, Lahore</p>
+                        </div>
+                    </div>
+                    <div class="contact-detail">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p><a href="tel:03094555755">0309 4555755</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-detail">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <p><a href="https://wa.me/923094555755" target="_blank">0309 4555755</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-detail">
+                        <i class="far fa-clock"></i>
+                        <div>
+                            <h4>Working Hours</h4>
+                            <p>Mon–Sat: 10:00 AM – 8:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-map">
+                    <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3403.207357571843!2d74.33177807516623!3d31.459460174272806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919067f5d7b9b9f%3A0x9b3b4c5d6e7f8a9b!2sAskari%20X%2C%20Lahore%2C%20Pakistan!5e0!3m2!1sen!2s!4v1700000000000"
+                    width="100%"
+                    height="300"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================================
+BOOKING / APPOINTMENT SECTION
+============================================================ -->
+<!-- ============================================================
+BOOKING / APPOINTMENT SECTION
+============================================================ -->
+<section class="booking" id="booking">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">Book Now</span>
+            <h2 class="section-title">Schedule Your Appointment</h2>
+            <p class="section-desc">Fill in the details below and we'll get back to you shortly.</p>
+        </div>
+        <div class="booking-wrapper">
+            <form class="booking-form" id="bookingForm" novalidate>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="bookName">Full Name <span class="required">*</span></label>
+                        <input type="text" id="bookName" placeholder="Your full name" required />
+                        <span class="error-msg" id="bookNameError">Please enter your name (min 2 characters).</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="bookPhone">Phone <span class="required">*</span></label>
+                        <input type="tel" id="bookPhone" placeholder="03XX-XXXXXXX" required />
+                        <span class="error-msg" id="bookPhoneError">Please enter a valid phone number (e.g., 0309-4555755).</span>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="bookEmail">Email</label>
+                        <input type="email" id="bookEmail" placeholder="your@email.com" />
+                        <span class="error-msg" id="bookEmailError">Please enter a valid email.</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="bookService">Select Service <span class="required">*</span></label>
+                        <select id="bookService" required>
+                            <option value="">— Choose a service —</option>
+                            <option value="Party Makeup — Heavy Glam">Party Makeup — Heavy Glam</option>
+                            <option value="Party Makeup — Soft Glam">Party Makeup — Soft Glam</option>
+                            <option value="Party Makeup — Signature Glam">Party Makeup — Signature Glam</option>
+                            <option value="Bridal Makeup — Signature Barat">Bridal Makeup — Signature Barat</option>
+                            <option value="Bridal Makeup — Signature Walima">Bridal Makeup — Signature Walima</option>
+                            <option value="Bridal Makeup — Senior Barat">Bridal Makeup — Senior Barat</option>
+                            <option value="Nail Bar — Regular Nail Colour">Nail Bar — Regular Nail Colour</option>
+                            <option value="Nail Bar — Acrylics">Nail Bar — Acrylics</option>
+                            <option value="Nail Bar — Gel-X Extensions">Nail Bar — Gel-X Extensions</option>
+                            <option value="Massage & Oiling — Full Body (30 min)">Massage &amp; Oiling — Full Body (30 min)</option>
+                            <option value="Massage & Oiling — Full Body (60 min)">Massage &amp; Oiling — Full Body (60 min)</option>
+                            <option value="Massage & Oiling — Hair Oiling">Massage &amp; Oiling — Hair Oiling</option>
+                            <option value="Hands & Feet — Executive Spa Manicure">Hands &amp; Feet — Executive Spa Manicure</option>
+                            <option value="Hands & Feet — Signature Jelly Brew Pedicure">Hands &amp; Feet — Signature Jelly Brew Pedicure</option>
+                            <option value="Waxing — Full Face">Waxing — Full Face</option>
+                            <option value="Waxing — Full Body">Waxing — Full Body</option>
+                            <option value="Skin Rituals — Korean Glow Facial">Skin Rituals — Korean Glow Facial</option>
+                            <option value="Skin Rituals — Janssen Supreme Whitening Facial">Skin Rituals — Janssen Supreme Whitening Facial</option>
+                            <option value="Haircuts & Styling — Senior Stylist Cut & Blow Dry">Haircuts &amp; Styling — Senior Stylist Cut &amp; Blow Dry</option>
+                            <option value="Haircuts & Styling — Signature WOW Blowdry">Haircuts &amp; Styling — Signature WOW Blowdry</option>
+                        </select>
+                        <span class="error-msg" id="bookServiceError">Please select a service.</span>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="bookDate">Preferred Date <span class="required">*</span></label>
+                        <input type="date" id="bookDate" required />
+                        <span class="error-msg" id="bookDateError">Please select a valid date (today or future).</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="bookTime">Preferred Time <span class="required">*</span></label>
+                        <input type="time" id="bookTime" required />
+                        <span class="error-msg" id="bookTimeError">Please select a time.</span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="bookMessage">Message (optional)</label>
+                    <textarea id="bookMessage" rows="3" placeholder="Any special requests…"></textarea>
+                </div>
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-primary btn-large">Book Appointment</button>
+                    <button type="button" class="btn btn-wa btn-large" id="bookWhatsAppBtn"><i class="fab fa-whatsapp"></i> Book via WhatsApp</button>
+                </div>
+                <div class="form-success" id="formSuccess">
+                    <i class="fas fa-check-circle"></i>
+                    <h3>Thank you!</h3>
+                    <p>Your appointment request has been received. We will contact you shortly.</p>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================================
+FOOTER
+============================================================ -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <h3>Zahra Ali</h3>
+                <span class="footer-sub">Makeup Studio &amp; Salon</span>
+                <p>Beauty, Refined. Confidence, Revealed.</p>
+                <div class="footer-social">
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/zahraali.salonandstudio/" target="_blank" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <!-- WhatsApp -->
+                    <a href="https://wa.me/923094555755" target="_blank" aria-label="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#gallery">Gallery</a></li>
+                    <li><a href="index.html#reviews">Reviews</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                    <li><a href="index.html#booking">Book Appointment</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Our Services</h4>
+                <ul>
+                    <li><a href="party-makeup.html">Party Makeup</a></li>
+                    <li><a href="bridal-makeup.html">Bridal Makeup</a></li>
+                    <li><a href="nail-bar.html">Nail Bar</a></li>
+                    <li><a href="massage-oiling.html">Massage &amp; Oiling</a></li>
+                    <li><a href="hands-feet.html">Hands &amp; Feet Care</a></li>
+                    <li><a href="waxing.html">Waxing</a></li>
+                    <li><a href="skin-rituals.html">Skin Rituals</a></li>
+                    <li><a href="haircuts-styling.html">Haircuts &amp; Styling</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact</h4>
+                <p><i class="fas fa-map-marker-alt"></i> Shop No. 6A &amp; 7A, First Floor, Commercial Market, Sector S, Airport Rd, Block A, Askari X, Lahore</p>
+                <p><i class="fas fa-phone-alt"></i> <a href="tel:03094555755">0309 4555755</a></p>
+                <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/923094555755" target="_blank">0309 4555755</a></p>
+                <p><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/zahraali.salonandstudio/" target="_blank">@zahraali.salonandstudio</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Zahra Ali Makeup Studio &amp; Salon. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+<!-- ============================================================
+FLOATING WHATSAPP BUTTON
+============================================================ -->
+<a href="https://wa.me/923094555755" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- ============================================================
+BACK TO TOP
+============================================================ -->
+<button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+</button>
+
+<!-- ============================================================
+EXTERNAL JAVASCRIPT
+============================================================ -->
+<script src="script.js"></script>
+
+</body>
+</html>
